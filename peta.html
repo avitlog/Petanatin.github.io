@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Top Movies Showcase</h1>
+    </header>
+
+    <main>
+
+        <!-- Dagdagan niyo nalang ng mga gusto niyo pa  kunware reviews ganon, 
+         kopyahin niyo nalang yung ginawa ko sa movie thingy para malagay niyo yung movies na gusto niyo. And maganda rin na tapusin niyo na
+         before Wednesday para pahinga niyo na yung day na yan. Dapat yung sa video naka-portrait mode, 
+         sa tiktok kayo maghanap kung wala sa youtube. Wala kasi me Mon & Tue :< Kaya niyo yan guyz :3 -->
+        <section class="movie-section">
+            <h2>Top 3 Rated Movies</h2>
+            <div class="top-movies">
+                <div class="movie-card" data-title="Mamma Mia!" data-genre="Musical, Romantic Comedy" data-cast="Meryl Streep, Amanda Seyfried">
+                    <img src="mammamia.jpg" alt="Mamma Mia Poster">
+                    <video muted loop>
+                        <source src="mammamia.mp4.mp4" type="video">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 2" data-genre="Thriller, Mystery" data-cast="Actor X, Actor Y">
+                    <img src="cover2.jpg" alt="Movie 2 Cover">
+                    <video muted loop>
+                        <source src="top2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 3" data-genre="Drama, Romance" data-cast="Actor P, Actor Q">
+                    <img src="cover3.jpg" alt="Movie 3 Cover">
+                    <video muted loop>
+                        <source src="top3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Top 5 of Our Picks</h2>
+            <div class="top-five">
+                <div class="movie-card" data-title="Movie Title 4" data-genre="Comedy" data-cast="Actor C, Actor D">
+                    <img src="cover4.jpg" alt="Movie 4 Cover">
+                    <video muted loop>
+                        <source src="top4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 5" data-genre="Horror" data-cast="Actor E, Actor F">
+                    <img src="cover5.jpg" alt="Movie 5 Cover">
+                    <video muted loop>
+                        <source src="top5.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 6" data-genre="Documentary" data-cast="Actor G, Actor H">
+                    <img src="cover6.jpg" alt="Movie 6 Cover">
+                    <video muted loop>
+                        <source src="top6.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 7" data-genre="Adventure" data-cast="Actor I, Actor J">
+                    <img src="cover7.jpg" alt="Movie 7 Cover">
+                    <video muted loop>
+                        <source src="top7.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="movie-card" data-title="Movie Title 8" data-genre="Fantasy" data-cast="Actor K, Actor L">
+                    <img src="cover8.jpg" alt="Movie 8 Cover">
+                    <video muted loop>
+                        <source src="top8.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="nyom.js"></script>
+</body>
+
+</html>
